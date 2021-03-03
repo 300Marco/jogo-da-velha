@@ -22,6 +22,11 @@ O objetivo do jogo da velha é fazer com que os jogadores, preencham lacunas de 
 
 ## 💻 Projeto 
 O jogo da velha foi desenvolvido durante o curso de JavaScript do Básico ao Avançado, para praticar o que foi ensinado durante o trajeto das aulas e fixar os conhecimentos obtidos.
+<p>
+
+- &nbsp;&nbsp;&nbsp;&nbsp;Você pode dar uma conferida no projeto clicando aqui: <a href="https://jogodavelha-nine.vercel.app/" target="_blank">✔️ Jogo da Velha</a>.
+
+</p>
 
 <br><br>
 
