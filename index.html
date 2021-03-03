@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Stick&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+        <title>Jogo da velha</title>
+    </head>
+    <body>
+        
+        <h1>Jogo da Velha</h1>
+
+        <!-- Botões modo de jogo -->
+        <div id="buttons-container">
+            <button id="2-players">2 Jogadores</button>
+            <button id="ai-player">Jogar Contra a Máquina</button>
+        </div>
+
+        <!-- Grade do jogo da velha -->
+        <!-- Cada div representa um dos blocos -->
+        <div id="container" class="hide">
+            <div class="box" id="block-1"></div>
+            <div class="box" id="block-2"></div>
+            <div class="box" id="block-3"></div>
+            <div class="box" id="block-4"></div>
+            <div class="box" id="block-5"></div>
+            <div class="box" id="block-6"></div>
+            <div class="box" id="block-7"></div>
+            <div class="box" id="block-8"></div>
+            <div class="box" id="block-9"></div>
+            <!-- Placar do jogo -->
+            <div id="scoreboard-container">
+                <h2>Placar</h2>
+                <span class="score-box">
+                    <span id="x-scoreboard">X</span>
+                    :
+                    <span id="scoreboard-1">0</span>
+                </span>
+
+                <span class="versus">vs</span> 
+
+                <span class="score-box">
+                    <span id="o-scoreboard"></span>
+                    :
+                    <span id="scoreboard-2">0</span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Elementos "X" e "O" que irão aparecer na tela -->
+        <div class="hide">
+            <div class="x">X</div>
+            <div class="o"></div>
+        </div>
+
+        <!-- div mensagens, para situações do jogo, como por exemplo o vencedor -->
+        <div id="message" class="hide">
+            <p></p>
+        </div>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
