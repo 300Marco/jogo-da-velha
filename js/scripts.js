@@ -2,8 +2,8 @@ let x = document.querySelector(".x");
 let o = document.querySelector(".o");
 let messageContainer = document.querySelector("#message");
 let messageText = document.querySelector("#message p");
-
 let boxes = document.querySelectorAll(".box");
+let back = document.querySelectorAll("#back"); // add
 let buttons = document.querySelectorAll("#buttons-container button");
 
 let secondPlayer;
@@ -276,7 +276,9 @@ for(let i = 0; i < buttons.length; i++) {
         setTimeout(function() {
 
             let container = document.querySelector("#container");
+            let back = document.querySelector("#back"); // add
             container.classList.remove("hide");
+            back.classList.remove("hide"); // add
 
         }, 500)
 
